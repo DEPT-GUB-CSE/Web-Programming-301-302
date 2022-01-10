@@ -1,0 +1,18 @@
+<name>Ami</name>
+<id>193</id>
+<section>Day</section>
+<semester>fall 2021</semester>
+<courses>
+	<web_programming>
+		<course_code>CSE 301</course_code>
+		<credit>3.0</credit>
+		<course_teacher>Mr. X</course_teacher>
+		<grade>A+</grade>
+	</web_programming>
+	<web_programming_lab>
+	<course_code>CSE 302</course_code>
+		<credit>1.5</credit>
+		<course_teacher>Mr. Y</course_teacher>
+		<grade>B+</grade>
+</web_programming_lab>
+</courses>

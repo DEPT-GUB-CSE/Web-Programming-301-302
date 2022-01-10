@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="myFunction(event)" class="check_form">
+      <select>
+        <option class="car">Car01</option>
+        <option class="car">Car02</option>
+        <option class="car">Car03</option>
+        <input type="submit" value="count" />
+      </select>
+    </form>
+    <p class="counter"></p>
+    <script>
+      function myFunction(event) {
+        event.preventDefault();
+        const counterText = document.querySelector(".counter");
+        const opt = [...document.querySelectorAll(".car")];
+        counterText.innerText = "Total DropDown Element" + opt.length;
+      }
+    </script>
+  </body>
+</html>
